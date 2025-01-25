@@ -1,6 +1,6 @@
 import requests
 
-GOOGLE_API_KEY = "AIzaSyBum581GL-6-sXfgKFFH_eqpH7A7c3MDpQ"
+GOOGLE_API_KEY = "your_google_api_key_here"
 
 def get_top_attractions(destination, num_results=5):
     """
