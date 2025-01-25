@@ -1,4 +1,4 @@
-# **AI Travel Itinerary Planner**
+# **VacayVue**
 
 ## **Overview**
 The AI Travel Itinerary Planner is a user-friendly web app powered by **Google Places API** and built with **Streamlit**. It generates a personalized, day-by-day travel itinerary based on user preferences, such as destination, trip duration, and number of attractions per day.
@@ -15,8 +15,8 @@ The AI Travel Itinerary Planner is a user-friendly web app powered by **Google P
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/travel-itinerary-planner.git
-cd travel-itinerary-planner
+git clone https://github.com/snehaapratap/VacayVue.git
+cd VacayVue
 ```
 
 ### **2. Set Up Environment**
@@ -35,18 +35,12 @@ streamlit run app.py
 
 ---
 
-## **Deployment**
-The app is hosted on **Streamlit Cloud**. Access the live version [here](https://streamlit.io/cloud).
-
----
-
 ## **File Structure**
 ```
 travel_itinerary/
 │
 ├── app.py                # Main Streamlit application
 ├── google_places.py      # Handles Google Places API integration
-├── styles.css            # Optional custom styles for Streamlit
 ├── requirements.txt      # Python dependencies
 └── README.md             # Documentation
 ```
@@ -102,16 +96,3 @@ Day 3:
 - **Streamlit**: Frontend web application framework.
 - **Google Places API**: Fetching travel-related data.
 
----
-
-## **Contributing**
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature"
-   ```
-4. Push and create a pull request.
