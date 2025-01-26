@@ -9,7 +9,6 @@ The AI Travel Itinerary Planner is a user-friendly web app powered by **Google P
 - **Customizable Inputs**: Users can define trip duration and the number of attractions per day.
 - **Streamlit-Powered Interface**: An interactive and intuitive web application.
 
----
 
 ## **How to Run Locally**
 
@@ -33,7 +32,7 @@ streamlit run app.py
 
 - The application will be available at `http://localhost:8501`.
 
----
+
 
 ## **File Structure**
 ```
@@ -45,7 +44,6 @@ travel_itinerary/
 └── README.md             # Documentation
 ```
 
----
 
 ## **How It Works**
 1. **User Input**:
@@ -60,7 +58,7 @@ travel_itinerary/
 3. **Output**:
    - Displays a day-by-day itinerary with attraction details.
 
----
+
 
 ## **Example**
 **Inputs**:
@@ -83,13 +81,13 @@ Day 3:
 - Arc de Triomphe (Place Charles de Gaulle, Paris) - Rated 4.7
 ```
 
----
+
 
 ## **Customization**
 - Modify the **number of attractions per day** or refine the itinerary logic in `app.py`.
 - Add more Google API features (e.g., hotel or restaurant recommendations).
 
----
+
 
 ## **Technologies Used**
 - **Python**: Backend scripting and API integration.
